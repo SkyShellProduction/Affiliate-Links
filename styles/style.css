@@ -14,6 +14,9 @@ ul{
 p{
     margin: 0;
 }
+img{
+    width: 100%;
+}
 .header-avatar img{
     border-radius: 50%;
     user-select: none;
@@ -63,5 +66,16 @@ header h2{
     
 }
 footer{
-    padding: 50px 0;
+    padding: 50px 0 30px;
+}
+footer ul li{
+    margin: 10px 20px;
+}
+footer ul li a{
+    font-size: 35px;
+}
+@media(max-width: 350px){
+    header h2{
+        font-size: 25px;
+    }
 }
